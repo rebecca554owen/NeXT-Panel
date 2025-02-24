@@ -1,0 +1,76 @@
+{
+    "clients":[
+        {
+            "name": "Clash Nyanpasu",
+            "tagMethod": "github_release",
+            "gitRepo": "LibNyanpasu/clash-nyanpasu",
+            "savePath": "public/clients/",
+            "downloads": [
+                {
+                    "sourceName": "Clash.Nyanpasu_%tagName1%_x64-setup.exe",
+                    "saveName": "Clash.Nyanpasu.exe"
+                },
+                {
+                    "sourceName": "clash-nyanpasu_%tagName1%_amd64.AppImage",
+                    "saveName": "Clash.Nyanpasu.AppImage"
+                },
+                {
+                    "sourceName": "Clash.Nyanpasu_%tagName1%_aarch64.dmg",
+                    "saveName": "Clash.Nyanpasu_aarch64.dmg"
+                }
+            ]
+        },
+        {
+            "name": "Clash.Meta For Android",
+            "tagMethod": "github_release",
+            "gitRepo": "MetaCubeX/ClashMetaForAndroid",
+            "savePath": "public/clients/",
+            "downloads": [
+                {
+                    "sourceName": "cmfa-%tagName1%-meta-universal-release.apk ",
+                    "saveName": "CMFA.apk"
+                }
+            ]
+        },
+        {
+            "name": "sing-box",
+            "tagMethod": "github_release",
+            "gitRepo": "SagerNet/sing-box",
+            "savePath": "public/clients/",
+            "downloads": [
+                {
+                    "sourceName": "SFA-%tagName1%-universal.apk",
+                    "saveName": "SFA.apk"
+                },
+                {
+                    "sourceName": "SFM-%tagName1%-universal.zip",
+                    "saveName": "SFM.zip"
+                }
+            ]
+        },
+        {
+            "name": "Hiddify",
+            "tagMethod": "github_release",
+            "gitRepo": "hiddify/hiddify-next",
+            "savePath": "public/clients/",
+            "downloads": [
+                {
+                    "sourceName": "Hiddify-Android-universal.apk",
+                    "saveName": "Hiddify.apk"
+                },
+                {
+                    "sourceName": "Hiddify-Linux-x64.AppImage",
+                    "saveName": "Hiddify.AppImage"
+                },
+                {
+                    "sourceName": "Hiddify-MacOS.dmg",
+                    "saveName": "Hiddify.dmg"
+                },
+                {
+                    "sourceName": "Hiddify-Windows-Setup-x64.exe",
+                    "saveName": "Hiddify.exe"
+                }
+            ]
+        }
+    ]
+}

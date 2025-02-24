@@ -1,0 +1,48 @@
+{
+    "name": "postal/postal",
+    "description": "Postal for PHP library.",
+    "keywords": ["postal", "mail"],
+    "license": "MIT",
+    "homepage":"https://github.com/atech/postal",
+    "authors": [
+        {
+            "name": "Adam Cooke",
+            "email": "me@adamcooke.io"
+        },
+        {
+            "name": "Josh Grant",
+            "email": "josh@grantj.io"
+        },
+        {
+            "name": "William Hall",
+            "email": "william.hall@synergitech.co.uk"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "guzzlehttp/guzzle": "^6 || ^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Postal\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^9.6",
+        "symplify/easy-coding-standard": "^11.3"
+    },
+    "scripts": {
+        "test": [
+            "ecs",
+            "phpunit",
+            "phpstan"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
